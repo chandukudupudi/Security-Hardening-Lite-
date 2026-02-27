@@ -1,0 +1,37 @@
+# Security Model
+
+## Roles
+
+### user
+- Create requests
+- Read/edit own records only
+- Cannot delete
+- Cannot see SSN field
+
+### agent
+- Read/write all records
+- Cannot see SSN field
+- Cannot delete
+
+### admin
+- Full access
+- Can view SSN field
+- Can delete records
+
+---
+
+## Record-Level Enforcement
+
+Table ACL script ensures:
+- HR agents/admins → full visibility
+- Users → only own records
+
+---
+
+## Field-Level Enforcement
+
+Field ACL on:
+u_ssn_last4
+
+Only role:
+x_<scope>_hr_sec_lite.admin
