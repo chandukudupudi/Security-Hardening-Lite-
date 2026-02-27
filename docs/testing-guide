@@ -1,0 +1,21 @@
+# Testing Guide
+
+## Test 1 – Record Visibility
+1. Login as Employee A
+2. Create HR request
+3. Login as Employee B
+4. Confirm access denied
+
+## Test 2 – HR Agent
+1. Login as HR Agent
+2. Confirm visibility of all records
+3. Confirm SSN field not visible
+
+## Test 3 – HR Admin
+1. Login as HR Admin
+2. Confirm SSN field visible
+
+## Test 4 – REST API
+1. Call API as Employee → 403
+2. Call API as Agent → 201
+3. Call API as Admin → can include SSN field
