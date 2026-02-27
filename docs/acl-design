@@ -1,0 +1,25 @@
+# ACL Design
+
+## Table ACLs
+
+Operation: read
+Script checks:
+- If agent/admin → allow
+- Else allow only if current.u_owner == gs.getUserID()
+
+Operation: write
+- Agent/admin → full access
+- User → only own records while status != Closed
+
+Operation: delete
+- Admin only
+
+---
+
+## Field ACL
+
+Field: u_ssn_last4
+Operation: read
+Role required: admin
+
+Prevents sensitive data leakage to HR agents or employees.
