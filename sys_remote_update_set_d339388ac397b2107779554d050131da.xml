@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-02-27 15:43:09">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<application_name>Security Hardening Lite</application_name>
+<application_scope>x_884051_securit_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>Default</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b3d2ebd8c31332107779554d0501310e</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>d339388ac397b2107779554d050131da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_description</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_description" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Description</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_description</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>c0e62fd0c35332107779554d0501314a</sys_id><sys_name>Description</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_description</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1824144161</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1339388ac397b2107779554d050131dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b309a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Description</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>64e66fd007533210cde56cb33bc53834</update_guid>
+<update_guid_history>64e66fd007533210cde56cb33bc53834:-1824144161,40e62fd098533210c56a703c1dd2e090:930973148</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c394a3dcc31332107779554d050131e9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_securit_0_u_sensitive_request</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>c394a3dcc31332107779554d050131e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_security_acl_c394a3dcc31332107779554d050131e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-784453680</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1339388ac397b2107779554d050131e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c8672185d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0b94a3dc341332101faf809af37a8fec</update_guid>
+<update_guid_history>0b94a3dc341332101faf809af37a8fec:-784453680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_title</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_title" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Title</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_title</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>00e62fd0c35332107779554d05013150</sys_id><sys_name>Title</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_title</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1259902377</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1739388ac397b2107779554d050131de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b317e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Title</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e4e66fd0cc53321091f7258b0a36224f</update_guid>
+<update_guid_history>e4e66fd0cc53321091f7258b0a36224f:-1259902377,44e62fd0845332107e676e68081e1593:864687252</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_8b94a3dcc31332107779554d050131df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>8b94a3dcc31332107779554d050131df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_security_acl display_value="x_884051_securit_0_u_sensitive_request">c394a3dcc31332107779554d050131c9</sys_security_acl><sys_update_name>sys_security_acl_role_8b94a3dcc31332107779554d050131df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><sys_user_role display_value="x_884051_securit_0.admin" name="x_884051_securit_0.admin">bbd2ebd8c31332107779554d0501311b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1312482330</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1739388ac397b2107779554d050131e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c8672182a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>cb94a3dc9913321061832e503e0adfe6</update_guid>
+<update_guid_history>cb94a3dc9913321061832e503e0adfe6:1312482330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_status" label="Status" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_status</element><help/><hint/><label>Status</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>4ce62fd0c35332107779554d05013141</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Status</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-535263150</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1b39388ac397b2107779554d050131df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2e380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>58e62fd0b6533210f77ab4cb501471f4</update_guid>
+<update_guid_history>58e62fd0b6533210f77ab4cb501471f4:-535263150,50e62fd03b5332108f14e4c1878a34dd:-535263150,94e62fd0ff533210f20afa1712b41b96:655025402</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_b97aa3d8c35332107779554d05013130</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>admin: can see sensitive fields + full control</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.admin</name><scoped_admin>false</scoped_admin><suffix>x_&lt;ns&gt;_hr_sec_lite.admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 18:08:21</sys_created_on><sys_id>b97aa3d8c35332107779554d05013130</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_user_role_b97aa3d8c35332107779554d05013130</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 18:08:21</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1388648553</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1b39388ac397b2107779554d050131e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c8689c4fe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.admin</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>318a67d8c9533210196aab3783f75c04</update_guid>
+<update_guid_history>318a67d8c9533210196aab3783f75c04:1388648553</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>pwd_process_4ff0c881bf220100710071a7bf0739fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pwd_process"><pwd_process action="INSERT_OR_UPDATE"><active>false</active><allow_verification_choice>false</allow_verification_choice><apply_to_all_users>true</apply_to_all_users><auto_gen_password>true</auto_gen_password><change>false</change><cred_store display_value="Local ServiceNow Instance">6e51033fbf020100710071a7bf0739e0</cred_store><description>Service-desk process for the local ServiceNow as a stand-alone credential-store</description><display_captcha>false</display_captcha><display_password>true</display_password><email_password_reset_url>false</email_password_reset_url><enable_security_score_notification>false</enable_security_score_notification><enabled_on_chatbot>false</enabled_on_chatbot><enrollment_reminder>false</enrollment_reminder><expiration_run_period/><expiration_run_start/><expiration_run_time/><expiration_run_time_zone/><expiration_schedule_frequency/><expiration_warn_days/><identification_type/><label>Service-Desk Password Reset for Local ServiceNow</label><min_verifications>1</min_verifications><name>Service-Desk Password Reset for Local ServiceNow</name><password_needs_reset>true</password_needs_reset><post_processor/><process_owner/><public_access>false</public_access><public_url/><pwd_validity_days/><redirect_url/><reset>true</reset><run_dayofmonth/><run_dayofweek/><run_start/><run_time/><run_type/><security_score/><send_email>true</send_email><send_expiration_reminder>false</send_expiration_reminder><sender_alias/><sys_class_name>pwd_process</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2013-07-11 18:00:54</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4ff0c881bf220100710071a7bf0739fa</sys_id><sys_mod_count>20</sys_mod_count><sys_name>Service-Desk Password Reset for Local ServiceNow</sys_name><sys_package display_value="Password Reset" source="com.glideapp.password_reset">d01a74bfbdf222104f34afdd794b6a93</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>pwd_process_4ff0c881bf220100710071a7bf0739fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-23 00:00:01</sys_updated_on><unlock_account>true</unlock_account><url_suffix/><user_experience_entry/><user_experience_failure/><user_experience_footer/><user_experience_header/><user_experience_success/></pwd_process><sys_translated_text action="delete_multiple" query="documentkey=4ff0c881bf220100710071a7bf0739fa"/></record_update>]]></payload>
+<payload_hash>559401970</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1f39388ac397b2107779554d050131da</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c87cbbbc00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>Service-Desk Password Reset for Local ServiceNow</target_name>
+<type>Password Reset Process</type>
+<update_domain>global</update_domain>
+<update_guid>150bb8a43adb3210ae378d02c0ec6663</update_guid>
+<update_guid_history>150bb8a43adb3210ae378d02c0ec6663:559401970,9c77b577f8003210e42d141402168d07:559401970</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_67d2abd8c31332107779554d050131f8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created>SNS</ide_created><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>Security Hardening Lite</name><package_json/><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_884051_securit_0</scope><scoped_administration>false</scoped_administration><short_description/><source>x_884051_securit_0</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:34:53</sys_created_on><sys_id>67d2abd8c31332107779554d050131f8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:34:53</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=67d2abd8c31332107779554d050131f8"/></record_update>]]></payload>
+<payload_hash>-1031057936</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1f39388ac397b2107779554d050131db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c866b23ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>Security Hardening Lite</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>33d2ebd8bb1332106af021240146d118</update_guid>
+<update_guid_history>33d2ebd8bb1332106af021240146d118:-1031057936</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_4394a3dcc31332107779554d050131ff</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_securit_0_u_sensitive_request</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>4394a3dcc31332107779554d050131ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_security_acl_4394a3dcc31332107779554d050131ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-1727422362</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>1f39388ac397b2107779554d050131e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c8672191a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8794e3dce0133210675356a46e350602</update_guid>
+<update_guid_history>8794e3dce0133210675356a46e350602:-1727422362</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_884051_securit_0_u_sensitive_request_u_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="u_status" table="x_884051_securit_0_u_sensitive_request" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>u_status</element><name>x_884051_securit_0_u_sensitive_request</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:25</sys_created_on><sys_id>dce62fd0c35332107779554d050131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_status</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_choice_x_884051_securit_0_u_sensitive_request_u_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>New</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><sequence>0</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>54e62fd0c35332107779554d050131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><value>new</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>In Progress</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><sequence>1</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9ce62fd0c35332107779554d050131d0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><value>in_progress</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>u_status</element><hint/><inactive>false</inactive><label>Closed</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><sequence>2</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>14e62fd0c35332107779554d050131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><value>closed</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>-562269371</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5339388ac397b2107779554d050131dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2d9f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>14e62fd0e15332105c24cbcb451f29d5</update_guid>
+<update_guid_history>14e62fd0e15332105c24cbcb451f29d5:-562269371</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_633277d8c39332107779554d0501313e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_securit_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	if(gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.admin')|| gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.agent'))
+	return true;
+
+	var me = gs.getUserID();
+	return (current.u_owner == me || current.u_requested_for == me);
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-22 18:52:58&lt;/sys_created_on&gt;&lt;sys_id&gt;633277d8c39332107779554d0501313e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_securit_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="Security Hardening Lite" source="x_884051_securit_0"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Hardening Lite"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_633277d8c39332107779554d0501313e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-22 18:52:58&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1312115854</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5339388ac397b2107779554d050131e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c86b29d4b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>9fb47310c9d3321020ab837f464f70c4</update_guid>
+<update_guid_history>9fb47310c9d3321020ab837f464f70c4:-1312115854</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_owner</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_owner" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Owner</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_owner</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_user">sys_user</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>04e6ebd0c35332107779554d050131d5</sys_id><sys_name>Owner</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_owner</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>422953040</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5739388ac397b2107779554d050131dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2e9b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Owner</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>50e62fd0fb5332109eb5c154504dfdfe</update_guid>
+<update_guid_history>50e62fd0fb5332109eb5c154504dfdfe:422953040,48e62fd06b533210cddae2063407a589:1410782825</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_0394e3dcc31332107779554d05013104</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>0394e3dcc31332107779554d05013104</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_security_acl display_value="x_884051_securit_0_u_sensitive_request">4394a3dcc31332107779554d050131ff</sys_security_acl><sys_update_name>sys_security_acl_role_0394e3dcc31332107779554d05013104</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><sys_user_role display_value="x_884051_securit_0.admin" name="x_884051_securit_0.admin">bbd2ebd8c31332107779554d0501311b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>467747553</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5739388ac397b2107779554d050131e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867219470000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>4794e3dc2d1332102367a743408b7314</update_guid>
+<update_guid_history>4794e3dc2d1332102367a743408b7314:467747553</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_description_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_description" label="Description" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_description</element><help/><hint/><label>Description</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>c4e62fd0c35332107779554d0501314d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Description</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_description_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2065634882</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5b39388ac397b2107779554d050131de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b312d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Description</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>68e66fd044533210270234f679db5246</update_guid>
+<update_guid_history>68e66fd044533210270234f679db5246:-2065634882,a8e66fd0f45332105d58f654922c093b:-2065634882,10e62fd08453321091f8c8d3d47b409f:-877811109</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_1294a3dcc31332107779554d0501311f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="1294a3dcc31332107779554d0501311f" sys_domain="global" table="x_884051_securit_0_u_sensitive_request" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_884051_securit_0_u_sensitive_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1294a3dcc31332107779554d0501311f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request</sys_name><sys_overrides/><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_ui_section_1294a3dcc31332107779554d0501311f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:27</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>220239104</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5b39388ac397b2107779554d050131e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c86720dcf0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>d294a3dcf71332107d341a6d642e2141</update_guid>
+<update_guid_history>d294a3dcf71332107d341a6d642e2141:220239104,9294a3dcea1332104302a12b91adaf3f:220239104</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_title_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_title" label="Title" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_title</element><help/><hint/><label>Title</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>04e62fd0c35332107779554d05013153</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Title</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_title_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2067216694</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5f39388ac397b2107779554d050131df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b32090000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Title</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e8e66fd0d05332108c38d1b772e41961</update_guid>
+<update_guid_history>e8e66fd0d05332108c38d1b772e41961:-2067216694,2ce66fd0eb533210e8db1c1363ebd456:-2067216694,9ce62fd0a1533210173d832e71d99da1:-1807972917</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_bbd2ebd8c31332107779554d0501311b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default admin role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_securit_0.admin</name><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:34:54</sys_created_on><sys_id>bbd2ebd8c31332107779554d0501311b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_user_role_bbd2ebd8c31332107779554d0501311b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:34:54</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1432102550</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>5f39388ac397b2107779554d050131e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c866b24890000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>x_884051_securit_0.admin</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>3fd2ebd8521332108618518079b55b27</update_guid>
+<update_guid_history>3fd2ebd8521332108618518079b55b27:1432102550</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="sensitive_request" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>sensitive_request</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural>sensitive_requests</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:26</sys_created_on><sys_id>469463dcc31332107779554d050131df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sensitive_request</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-2032650379</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9339388ac397b2107779554d050131e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c86720b4f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_ee614c71c35332107779554d050131f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_884051_securit_0/hr_conf_req_api</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>HR Confidential Request API</name><namespace>x_884051_securit_0</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>hr_conf_req_api</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-26 17:01:40</sys_created_on><sys_id>ee614c71c35332107779554d050131f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Confidential Request API</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_ws_definition_ee614c71c35332107779554d050131f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-26 17:01:40</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>-819446084</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9339388ac397b2107779554d050131e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c9ae627ab0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>HR Confidential Request API</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>c4a104b168533210ccd007eec2d7888d</update_guid>
+<update_guid_history>c4a104b168533210ccd007eec2d7888d:-819446084</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_0a9463dcc31332107779554d050131c8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>sensitive_request</label><live_feed_enabled>false</live_feed_enabled><name>x_884051_securit_0_u_sensitive_request</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:26</sys_created_on><sys_id>0a9463dcc31332107779554d050131c8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Securit 0 U Sensitive Request</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_db_object_0a9463dcc31332107779554d050131c8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:26</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>247225178</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9739388ac397b2107779554d050131dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c86720b280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>9e94a3dc3d13321084b826ee1eff4206</update_guid>
+<update_guid_history>9e94a3dc3d13321084b826ee1eff4206:247225178</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_8394a3dcc31332107779554d050131f4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow write for records in x_884051_securit_0_u_sensitive_request, for users with role x_884051_securit_0.admin, and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_securit_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    if (gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.admin') || gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.agent'))
+        return true;
+
+    var me = gs.getUserID();
+    if (current.u_status == 'closed') return false;
+    return (current.u_owner == me || current.u_requested_for == me);
+
+
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-22 17:42:30&lt;/sys_created_on&gt;&lt;sys_id&gt;8394a3dcc31332107779554d050131f4&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_securit_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="Security Hardening Lite" source="x_884051_securit_0"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Hardening Lite"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_8394a3dcc31332107779554d050131f4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-24 22:03:19&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1050208829</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9739388ac397b2107779554d050131e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c91ad9abd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>5373fe89559b3210dc5ed08e42d26aa1</update_guid>
+<update_guid_history>5373fe89559b3210dc5ed08e42d26aa1:-1050208829,c794a3dc06133210359c0499705a15f7:-1974754988</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_ssn_last4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_ssn_last4" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>SSN_Last4</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_ssn_last4</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>84e62fd0c35332107779554d05013144</sys_id><sys_name>SSN_Last4</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_ssn_last4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-495838879</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9b39388ac397b2107779554d050131dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2f7f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.SSN_Last4</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e0e66fd07553321000a7a2060a59cd19</update_guid>
+<update_guid_history>e0e66fd07553321000a7a2060a59cd19:-495838879,4ce62fd03353321044c32daee8c50b8c:1040865054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_4394a3dcc31332107779554d050131f9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>4394a3dcc31332107779554d050131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_security_acl display_value="x_884051_securit_0_u_sensitive_request">8394a3dcc31332107779554d050131f4</sys_security_acl><sys_update_name>sys_security_acl_role_4394a3dcc31332107779554d050131f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><sys_user_role display_value="x_884051_securit_0.admin" name="x_884051_securit_0.admin">bbd2ebd8c31332107779554d0501311b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1777240233</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9b39388ac397b2107779554d050131e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867218e00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>cf94a3dc8513321004542cef403daffc</update_guid>
+<update_guid_history>cf94a3dc8513321004542cef403daffc:-1777240233</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_owner_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_owner" label="Owner" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_owner</element><help/><hint/><label>Owner</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>00e62fd0c35332107779554d0501313c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Owner</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_owner_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:25</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1242369041</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9f39388ac397b2107779554d050131de</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2f200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Owner</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>64e66fd02f53321068dcd7985ac3f210</update_guid>
+<update_guid_history>64e66fd02f53321068dcd7985ac3f210:1242369041,94e66fd0865332101f53a30da3646f05:1242369041,14e62fd02e5332101c6b49fd9d0fe199:-1343608425</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_3bb96758c35332107779554d050131c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>agent: can read/update all records (HR team)</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.agent</name><scoped_admin>false</scoped_admin><suffix>x_&lt;ns&gt;_hr_sec_lite.agent</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 18:05:15</sys_created_on><sys_id>3bb96758c35332107779554d050131c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.agent</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_user_role_3bb96758c35332107779554d050131c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 18:05:15</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1167384079</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>9f39388ac397b2107779554d050131e3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c8686eebb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>x_884051_securit_0.x_&lt;ns&gt;_hr_sec_lite.agent</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>94d9eb5811533210d134248a399c1bc9</update_guid>
+<update_guid_history>94d9eb5811533210d134248a399c1bc9:1167384079</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_ssn_last4_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_ssn_last4" label="SSN_Last4" language="en" table="x_884051_securit_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element>u_ssn_last4</element><help/><hint/><label>SSN_Last4</label><language>en</language><name>x_884051_securit_0_u_sensitive_request</name><plural/><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>88e62fd0c35332107779554d05013147</sys_id><sys_mod_count>3</sys_mod_count><sys_name>SSN_Last4</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_documentation_x_884051_securit_0_u_sensitive_request_u_ssn_last4_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>885956947</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>d339388ac397b2107779554d050131df</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b30480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.SSN_Last4</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>e4e66fd0c65332106746d16ad95d552b</update_guid>
+<update_guid_history>e4e66fd0c65332106746d16ad95d552b:885956947,28e66fd0d253321081173cc6656d4b20:885956947,90e62fd04a533210650cace07a968b9c:156656127</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_73d2ebd8c31332107779554d0501312a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default user role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_securit_0.user</name><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:34:54</sys_created_on><sys_id>73d2ebd8c31332107779554d0501312a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0.user</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_user_role_73d2ebd8c31332107779554d0501312a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:34:54</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>2041493110</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>d339388ac397b2107779554d050131e4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c866b24e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>x_884051_securit_0.user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>7bd2ebd86713321062067332724d6e30</update_guid>
+<update_guid_history>7bd2ebd86713321062067332724d6e30:2041493110</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_1b87b2c1c3db32107779554d05013169</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;incident&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;HRREQ – set owner defaults&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (!current.u_owner)
+        current.u_owner = gs.getUserID();
+    if (!current.u_requested_for)
+        current.u_requested_for = gs.getUserID();
+    if (!current.u_status)
+        current.u_status = 'New';
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-24 22:39:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1b87b2c1c3db32107779554d05013169&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HRREQ – set owner defaults&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Security Hardening Lite" source="x_884051_securit_0"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Hardening Lite"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_1b87b2c1c3db32107779554d05013169&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-24 22:39:59&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=1b87b2c1c3db32107779554d05013169"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>969261330</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>d739388ac397b2107779554d050131e0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c91cf2bde0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>incident</table>
+<target_name>HRREQ – set owner defaults</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>5ceb76c93adb3210b2453545c2df6e92</update_guid>
+<update_guid_history>5ceb76c93adb3210b2453545c2df6e92:969261330</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_f1b108b1c35332107779554d05013151</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl/&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;Hr Confidential Request API&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+        try {
+            if (!(gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.agent') || gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.admin'))) {
+                response.setStatus(403);
+                response.setBody({
+                    error: 'In Order to access you should have Admin/agent role requried'
+                });
+                return;
+            }
+
+            var body = request.body.data || {};
+
+            if (!body.title) {
+                response.setStatus(403);
+                response.setBody({
+                    error: 'title is requried'
+                });
+                return;
+            }
+            var gr = GlideRecord('x_&lt;scope&gt;_u_hr_conf_request');
+            gr.initilize();
+            gr.u_title = body.title;
+            gr.u_description = body.description || '';
+            gr.owner = body.owner || gs.getUserID();
+            gr.u_requested_for = body.requested_for || gs.getUserID();
+
+            if (body.ssn_last4 &amp;&amp; gs.hasRole('x_&lt;ns&gt;_hr_sec_lite.admin')) {
+                gr.u_ssn_last4 = body.ssn_last4;
+            }
+
+            var sysId = gr.insert();
+
+            response.setStatus(201);
+            response.setBody({
+                message: 'Created',
+                sys_id: sysId,
+                number: gr.getValue('sys_id')
+            });
+
+        } catch (e) {
+            response.setStatus(500);
+            response.setBody({
+                error: e.message
+            });
+        }
+    }
+)(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_884051_securit_0/hr_conf_req_api/create&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/create&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-26 17:03:08&lt;/sys_created_on&gt;&lt;sys_id&gt;f1b108b1c35332107779554d05013151&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hr Confidential Request API&lt;/sys_name&gt;&lt;sys_package display_value="Security Hardening Lite" source="x_884051_securit_0"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Hardening Lite"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_f1b108b1c35332107779554d05013151&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-26 17:30:50&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="HR Confidential Request API"&gt;ee614c71c35332107779554d050131f1&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2123409582</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>d739388ac397b2107779554d050131e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c9b00dbfd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table/>
+<target_name>Hr Confidential Request API</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>974844fd855332106050552efe6c3afe</update_guid>
+<update_guid_history>974844fd855332106050552efe6c3afe:2123409582,6df100f1df533210bddb903e73d3c65b:2070836490</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:26</sys_created_on><sys_id>429463dcc31332107779554d050131cc</sys_id><sys_name>x_884051_securit_0_u_sensitive_request</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:26</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>691630395</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>db39388ac397b2107779554d050131dc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c86720b100000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5294a3dcb51332104685de3ea91bf604</update_guid>
+<update_guid_history>5294a3dcb51332104685de3ea91bf604:691630395</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_c394a3dcc31332107779554d050131c9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow create for records in x_884051_securit_0_u_sensitive_request, for users with role x_884051_securit_0.admin, and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_securit_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function (){ return true;})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-02-22 17:42:29&lt;/sys_created_on&gt;&lt;sys_id&gt;c394a3dcc31332107779554d050131c9&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_securit_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="Security Hardening Lite" source="x_884051_securit_0"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Security Hardening Lite"&gt;67d2abd8c31332107779554d050131f8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_c394a3dcc31332107779554d050131c9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-02-24 21:53:51&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2026219954</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>db39388ac397b2107779554d050131e1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c91a4f1360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>fc517e85f59b32107305eae6a539dc1f</update_guid>
+<update_guid_history>fc517e85f59b32107305eae6a539dc1f:-2026219954,a6e0be454b9b321072f8d3fbe450ccaa:2143362316,c794a3dc271332107bfdcf642c5592d1:1221157508</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_status" table="x_884051_securit_0_u_sensitive_request"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Status</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_status</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Choice">choice</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_securit_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:52:23</sys_created_on><sys_id>48e62fd0c35332107779554d0501313e</sys_id><sys_name>Status</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_update_name>sys_dictionary_x_884051_securit_0_u_sensitive_request_u_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:52:24</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1409257860</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>df39388ac397b2107779554d050131dd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867b2d1f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>sensitive_request.Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>90e62fd09d533210a68fcff34cbc5dca</update_guid>
+<update_guid_history>90e62fd09d533210a68fcff34cbc5dca:-1409257860,8ce62fd0bd53321006bf4a1bda1eef85:1639289855</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_8394a3dcc31332107779554d050131ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-22 17:42:30</sys_created_on><sys_id>8394a3dcc31332107779554d050131ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</sys_name><sys_package display_value="Security Hardening Lite" source="x_884051_securit_0">67d2abd8c31332107779554d050131f8</sys_package><sys_policy/><sys_scope display_value="Security Hardening Lite">67d2abd8c31332107779554d050131f8</sys_scope><sys_security_acl display_value="x_884051_securit_0_u_sensitive_request">c394a3dcc31332107779554d050131e9</sys_security_acl><sys_update_name>sys_security_acl_role_8394a3dcc31332107779554d050131ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-22 17:42:30</sys_updated_on><sys_user_role display_value="x_884051_securit_0.admin" name="x_884051_securit_0.admin">bbd2ebd8c31332107779554d0501311b</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-412359908</payload_hash>
+<remote_update_set display_value="Default">d339388ac397b2107779554d050131da</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-02-27 15:43:08</sys_created_on>
+<sys_id>df39388ac397b2107779554d050131e2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19c867218850000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-02-27 15:43:08</sys_updated_on>
+<table>x_884051_securit_0_u_sensitive_request</table>
+<target_name>x_884051_securit_0_u_sensitive_request.x_884051_securit_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>0394a3dc8b133210577403db5e5a08f2</update_guid>
+<update_guid_history>0394a3dc8b133210577403db5e5a08f2:-412359908</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
