@@ -1,0 +1,23 @@
+# Architecture Overview – HR Security Hardening Lite
+
+## Application Scope
+Scoped application built using ServiceNow Studio.
+
+## Core Table
+HR Confidential Request (u_hr_conf_request)
+
+Fields:
+- Title
+- Description
+- SSN Last 4 (Sensitive)
+- Owner
+- Requested For
+- Status
+- HR Notes
+
+## Design Philosophy
+Security-first architecture:
+- Restrict at table level
+- Refine at field level
+- Protect API endpoints
+- Enforce ownership visibility
