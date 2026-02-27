@@ -1,0 +1,19 @@
+# Scripted REST API
+
+Endpoint:
+POST /api/x_<scope>_hr_sec_lite/hr_conf_req_api/create
+
+## Security Logic
+- Only HR agent/admin roles allowed
+- Non-authorized users receive 403 Forbidden
+
+## Payload Example
+
+{
+  "title": "Update dependent information",
+  "description": "Need to update beneficiary",
+  "requested_for": "sys_id_here"
+}
+
+## Admin-only Field
+SSN last4 can only be set if caller has admin role.
