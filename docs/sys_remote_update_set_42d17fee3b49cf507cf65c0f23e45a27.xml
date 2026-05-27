@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-05-27 18:16:41">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<application_name>ACL Security Lite </application_name>
+<application_scope>x_884051_acl_sec_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>Default</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>e7ad03ae3b45cf507cf65c0f23e45a57</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:31</sys_created_on>
+<sys_id>42d17fee3b49cf507cf65c0f23e45a27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:31</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_c7ad03ae3b45cf507cf65c0f23e45a4e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><ide_created>SNS</ide_created><installed_as_dependency>false</installed_as_dependency><js_level>es_latest</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>ACL Security Lite </name><package_json/><package_resolver_version>1.0.0</package_resolver_version><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_884051_acl_sec_0</scope><scoped_administration>false</scoped_administration><short_description/><source>x_884051_acl_sec_0</source><store_correlation_id/><store_url/><subscription_entitlement/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:38:29</sys_created_on><sys_id>c7ad03ae3b45cf507cf65c0f23e45a4e</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:38:29</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=c7ad03ae3b45cf507cf65c0f23e45a4e"/></record_update>]]></payload>
+<payload_hash>50617604</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>0ad17fee3b49cf507cf65c0f23e45a27</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a166b6f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table/>
+<target_name>ACL Security Lite </target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>d8bd03ae3245cf503434c00b242a85f3</update_guid>
+<update_guid_history>d8bd03ae3245cf503434c00b242a85f3:50617604</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_9e829fe63b85cf507cf65c0f23e45a5e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>u_sensitive_request</label><live_feed_enabled>false</live_feed_enabled><name>x_884051_acl_sec_0_u_sensitive_request</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:59:45</sys_created_on><sys_id>9e829fe63b85cf507cf65c0f23e45a5e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Acl Sec 0 U Sensitive Request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_db_object_9e829fe63b85cf507cf65c0f23e45a5e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:59:45</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1285373036</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>0ad17fee3b49cf507cf65c0f23e45a28</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a29fac00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>u_sensitive_request</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>d992dfe6c385cf5034cef3e7d1806dde</update_guid>
+<update_guid_history>d992dfe6c385cf5034cef3e7d1806dde:-1285373036</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_15c2972a3b85cf507cf65c0f23e45a9d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:45</sys_created_on><sys_id>15c2972a3b85cf507cf65c0f23e45a9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_15c2972a3b85cf507cf65c0f23e45a9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2084237915</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>12d173e23b89cf507cf65c0f23e45ad4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2abe860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>15c2972ac585cf508583ddef20fd60a1</update_guid>
+<update_guid_history>15c2972ac585cf508583ddef20fd60a1:2084237915</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a605afaa3b09cf507cf65c0f23e45a79</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 17:22:41</sys_created_on><sys_id>a605afaa3b09cf507cf65c0f23e45a79</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="">66f4ab6a3b09cf507cf65c0f23e45a78</sys_security_acl><sys_update_name>sys_security_acl_role_a605afaa3b09cf507cf65c0f23e45a79</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 17:22:41</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1194859249</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>12d173e23b89cf507cf65c0f23e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a75c0db0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>66f4ab6a3b09cf507cf65c0f23e45a78</table>
+<target_name>.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>698527ea6809cf50d5e14748994c6118</update_guid>
+<update_guid_history>698527ea6809cf50d5e14748994c6118:-1194859249</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_33b2572a3b85cf507cf65c0f23e45ac4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:40</sys_created_on><sys_id>33b2572a3b85cf507cf65c0f23e45ac4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_33b2572a3b85cf507cf65c0f23e45ac4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:40</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2054039967</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>16d173e23b89cf507cf65c0f23e45ad5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2aaba90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>98c2972a9985cf504d7c7231e0247412</update_guid>
+<update_guid_history>98c2972a9985cf504d7c7231e0247412:2054039967</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6ab2172a3b85cf507cf65c0f23e45af8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:34</sys_created_on><sys_id>6ab2172a3b85cf507cf65c0f23e45af8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_6ab2172a3b85cf507cf65c0f23e45af8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2095259627</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>1ad173e23b89cf507cf65c0f23e45ad6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2a99490000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>87b2572ae985cf50789eee32c85ba389</update_guid>
+<update_guid_history>87b2572ae985cf50789eee32c85ba389:2095259627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_16c2d72a3b85cf507cf65c0f23e45a1c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:49</sys_created_on><sys_id>16c2d72a3b85cf507cf65c0f23e45a1c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">21c2972a3b85cf507cf65c0f23e45a8b</sys_security_acl><sys_update_name>sys_security_acl_role_16c2d72a3b85cf507cf65c0f23e45a1c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:49</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.admin" name="x_884051_acl_sec_0.admin">10bd03ae3b45cf507cf65c0f23e45af6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1974742715</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>1ed173e23b89cf507cf65c0f23e45ad7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ad0760000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>2ec2d72a7285cf506b31d1557f9d46ac</update_guid>
+<update_guid_history>2ec2d72a7285cf506b31d1557f9d46ac:-1974742715</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e3c2d72a3b85cf507cf65c0f23e45ab7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:55</sys_created_on><sys_id>e3c2d72a3b85cf507cf65c0f23e45ab7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">3ec2d72a3b85cf507cf65c0f23e45aae</sys_security_acl><sys_update_name>sys_security_acl_role_e3c2d72a3b85cf507cf65c0f23e45ab7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:55</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.admin" name="x_884051_acl_sec_0.admin">10bd03ae3b45cf507cf65c0f23e45af6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-168928509</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>26d173e23b89cf507cf65c0f23e45ada</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ae5240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>fbc21b2a4c85cf5084994d10f26d3b47</update_guid>
+<update_guid_history>fbc21b2a4c85cf5084994d10f26d3b47:-168928509</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_10bd03ae3b45cf507cf65c0f23e45af6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default admin role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_acl_sec_0.admin</name><scoped_admin>false</scoped_admin><suffix>admin</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:38:35</sys_created_on><sys_id>10bd03ae3b45cf507cf65c0f23e45af6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_user_role_10bd03ae3b45cf507cf65c0f23e45af6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:38:35</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-118259837</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>2ad173e23b89cf507cf65c0f23e45adb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a1673c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table/>
+<target_name>x_884051_acl_sec_0.admin</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>b4bd43aeeb45cf5049f15ed2eefcca6f</update_guid>
+<update_guid_history>b4bd43aeeb45cf5049f15ed2eefcca6f:-118259837</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_operation_e0cee36e3b49cf507cf65c0f23e45a5b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;&lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;&lt;consumes_customized&gt;false&lt;/consumes_customized&gt;&lt;default_operation_uri/&gt;&lt;enforce_acl/&gt;&lt;http_method&gt;POST&lt;/http_method&gt;&lt;name&gt;HR Resourse&lt;/name&gt;&lt;operation_script&gt;&lt;![CDATA[(function process(request, response) {
+  try {
+    // Only HR agent/admin can call API
+    if (!(gs.hasRole('x_884051_acl_sec_0.agent') || gs.hasRole('x_884051_acl_sec_0.admin'))) {
+      response.setStatus(403);
+      response.setBody({ error: 'Forbidden: HR agent/admin role required' });
+      return;
+    }
+
+    var body = request.body.data || {};
+    if (!body.title) {
+      response.setStatus(400);
+      response.setBody({ error: 'title is required' });
+      return;
+    }
+
+    var gr = new GlideRecord('x_884051_acl_sec_0_u_sensitive_request');
+    gr.initialize();
+    gr.u_title = body.title;
+    gr.u_description = body.description || '';
+    gr.u_requested_for = body.requested_for || gs.getUserID();
+    gr.u_owner = body.owner || gs.getUserID();
+
+    // Only allow admin to set SSN last4 via API
+    if (body.ssn_last4 &amp;&amp; gs.hasRole('x_884051_acl_sec_0.admin')) {
+      gr.u_ssn_last4 = body.ssn_last4;
+    }
+
+    var sysId = gr.insert();
+
+    response.setStatus(201);
+    response.setBody({ message: 'Created', sys_id: sysId, number: gr.getValue('sys_id') });
+
+  } catch (e) {
+    response.setStatus(500);
+    response.setBody({ error: e.message });
+  }
+})(request, response);]]&gt;&lt;/operation_script&gt;&lt;operation_uri&gt;/api/x_884051_acl_sec_0/hr_confidential_request_api/create&lt;/operation_uri&gt;&lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;&lt;produces_customized&gt;false&lt;/produces_customized&gt;&lt;relative_path&gt;/create&lt;/relative_path&gt;&lt;request_example/&gt;&lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;&lt;requires_authentication&gt;true&lt;/requires_authentication&gt;&lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;&lt;short_description/&gt;&lt;support_trailing_slash&gt;false&lt;/support_trailing_slash&gt;&lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-27 18:07:44&lt;/sys_created_on&gt;&lt;sys_id&gt;e0cee36e3b49cf507cf65c0f23e45a5b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;HR Resourse&lt;/sys_name&gt;&lt;sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0"&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACL Security Lite "&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ws_operation_e0cee36e3b49cf507cf65c0f23e45a5b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-27 18:07:44&lt;/sys_updated_on&gt;&lt;web_service_definition display_value="HR Confidential Request API"&gt;5d2e232e3b49cf507cf65c0f23e45a62&lt;/web_service_definition&gt;&lt;web_service_version/&gt;&lt;/sys_ws_operation&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-779070907</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:34</sys_created_on>
+<sys_id>2ed173e23b89cf507cf65c0f23e45adc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a9efeed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:34</sys_updated_on>
+<table/>
+<target_name>HR Resourse</target_name>
+<type>Scripted REST Resource</type>
+<update_domain>global</update_domain>
+<update_guid>d5df276ee649cf50e240f3cd91b38888</update_guid>
+<update_guid_history>d5df276ee649cf50e240f3cd91b38888:-779070907</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_884051_acl_sec_0_u_sensitive_request_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_884051_acl_sec_0_u_sensitive_request"><active>true</active><array>false</array><attributes>enforce_dot_walk_cross_scope_access=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_884051_acl_sec_0_u_sensitive_request</name><next_element/><primary>false</primary><read_only>false</read_only><read_only_option/><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:59:45</sys_created_on><sys_id>26829fe63b85cf507cf65c0f23e45a62</sys_id><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_dictionary_x_884051_acl_sec_0_u_sensitive_request_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:59:45</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-1132729920</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>4ed17fee3b49cf507cf65c0f23e45a28</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a29f8d30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>u_sensitive_request</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8d92dfe69685cf50c39853048c607fdb</update_guid>
+<update_guid_history>8d92dfe69685cf50c39853048c607fdb:-1132729920</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_60c2972a3b85cf507cf65c0f23e45a17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:43</sys_created_on><sys_id>60c2972a3b85cf507cf65c0f23e45a17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">33b2572a3b85cf507cf65c0f23e45ac4</sys_security_acl><sys_update_name>sys_security_acl_role_60c2972a3b85cf507cf65c0f23e45a17</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:43</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.user" name="x_884051_acl_sec_0.user">f4bd43ae3b45cf507cf65c0f23e45a71</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1727768165</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>52d173e23b89cf507cf65c0f23e45ad8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ab9150000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>81c2972abf85cf503aeef2bc68566f9b</update_guid>
+<update_guid_history>81c2972abf85cf503aeef2bc68566f9b:1727768165</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1f06a32e3b09cf507cf65c0f23e45a6b</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	if(gs.hasRole('x_884051_acl_sec_0.admin')||gs.hasRole('x_884051_acl_sec_0.Agent'))
+	return true;
+
+	var me = gs.getUserID();
+	if(current.u_status =='closed') return false;
+	return(current.u_owner == me || current.u_requested_for == me);
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-27 17:32:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1f06a32e3b09cf507cf65c0f23e45a6b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0"&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACL Security Lite "&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_1f06a32e3b09cf507cf65c0f23e45a6b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-27 17:32:20&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2027448425</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>56d173e23b89cf507cf65c0f23e45ad4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a7e98260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>83b7ef2e3c09cf50697e2fa12fee4526</update_guid>
+<update_guid_history>83b7ef2e3c09cf50697e2fa12fee4526:-2027448425</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a865ab6a3b09cf507cf65c0f23e45ad5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 17:22:43</sys_created_on><sys_id>a865ab6a3b09cf507cf65c0f23e45ad5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.agent_admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="">66f4ab6a3b09cf507cf65c0f23e45a78</sys_security_acl><sys_update_name>sys_security_acl_role_a865ab6a3b09cf507cf65c0f23e45ad5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 17:22:43</sys_updated_on><sys_user_role display_value="agent_admin" name="agent_admin">8d1f97f0c611227d0100078c7573be2f</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-571328689</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>56d173e23b89cf507cf65c0f23e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a75c86e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>66f4ab6a3b09cf507cf65c0f23e45a78</table>
+<target_name>.agent_admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ce856fea5709cf50a59440b089ff1703</update_guid>
+<update_guid_history>ce856fea5709cf50a59440b089ff1703:-571328689</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3ec2d72a3b85cf507cf65c0f23e45aae</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:52</sys_created_on><sys_id>3ec2d72a3b85cf507cf65c0f23e45aae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_3ec2d72a3b85cf507cf65c0f23e45aae</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:52</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-2042086199</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>5ad173e23b89cf507cf65c0f23e45ad5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ada7b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>0fc2d72ab185cf5092e32376ebed15b2</update_guid>
+<update_guid_history>0fc2d72ab185cf5092e32376ebed15b2:-2042086199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_76b2572a3b85cf507cf65c0f23e45a3f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:35</sys_created_on><sys_id>76b2572a3b85cf507cf65c0f23e45a3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_76b2572a3b85cf507cf65c0f23e45a3f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:35</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2095259627</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>5ed173e23b89cf507cf65c0f23e45ad6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2a9a060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>8bb2572a1f85cf50ff8c3547f4fa8543</update_guid>
+<update_guid_history>8bb2572a1f85cf50ff8c3547f4fa8543:2095259627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e9c2972a3b85cf507cf65c0f23e45aa5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:47</sys_created_on><sys_id>e9c2972a3b85cf507cf65c0f23e45aa5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">15c2972a3b85cf507cf65c0f23e45a9d</sys_security_acl><sys_update_name>sys_security_acl_role_e9c2972a3b85cf507cf65c0f23e45aa5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:47</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.user" name="x_884051_acl_sec_0.user">f4bd43ae3b45cf507cf65c0f23e45a71</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1101416588</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>6ad173e23b89cf507cf65c0f23e45ada</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2aca290000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8ec2d72aea85cf506fb2771d518f6610</update_guid>
+<update_guid_history>8ec2d72aea85cf506fb2771d518f6610:1101416588</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_ba1653ae3b85cf507cf65c0f23e45a5f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Can Read + Update </description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_acl_sec_0.Agent</name><scoped_admin>false</scoped_admin><suffix>Agent</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:15:44</sys_created_on><sys_id>ba1653ae3b85cf507cf65c0f23e45a5f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0.Agent</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_user_role_ba1653ae3b85cf507cf65c0f23e45a5f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:15:44</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>2126559695</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:34</sys_created_on>
+<sys_id>6ed173e23b89cf507cf65c0f23e45adb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a38788e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:34</sys_updated_on>
+<table/>
+<target_name>x_884051_acl_sec_0.Agent</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>013653ae9485cf50b14504bc7b7124a5</update_guid>
+<update_guid_history>013653ae9485cf50b14504bc7b7124a5:2126559695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_884051_acl_sec_0_u_sensitive_request__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="u_sensitive_request" language="en" table="x_884051_acl_sec_0_u_sensitive_request"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>u_sensitive_request</label><language>en</language><name>x_884051_acl_sec_0_u_sensitive_request</name><plural>u_sensitive_requests</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:59:46</sys_created_on><sys_id>32829fe63b85cf507cf65c0f23e45a9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_documentation_x_884051_acl_sec_0_u_sensitive_request__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:59:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1171307870</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>82d17fee3b49cf507cf65c0f23e45a29</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a29fbdd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>u_sensitive_request</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid/>
+<update_guid_history/>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_98c2572a3b85cf507cf65c0f23e45ae3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:41</sys_created_on><sys_id>98c2572a3b85cf507cf65c0f23e45ae3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_98c2572a3b85cf507cf65c0f23e45ae3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:41</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2054039967</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>92d173e23b89cf507cf65c0f23e45ad7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ab0510000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a8c2572a5d85cf50673f5cb5429941e7</update_guid>
+<update_guid_history>a8c2572a5d85cf50673f5cb5429941e7:2054039967</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_74c2972a3b85cf507cf65c0f23e45a81</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:44</sys_created_on><sys_id>74c2972a3b85cf507cf65c0f23e45a81</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">98c2572a3b85cf507cf65c0f23e45ae3</sys_security_acl><sys_update_name>sys_security_acl_role_74c2972a3b85cf507cf65c0f23e45a81</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:44</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.admin" name="x_884051_acl_sec_0.admin">10bd03ae3b45cf507cf65c0f23e45af6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1232916381</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>96d173e23b89cf507cf65c0f23e45ad8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2abe000000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>11c2972a5e85cf509e8e42bbd0a70189</update_guid>
+<update_guid_history>11c2972a5e85cf509e8e42bbd0a70189:1232916381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_21c2972a3b85cf507cf65c0f23e45a8b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:47</sys_created_on><sys_id>21c2972a3b85cf507cf65c0f23e45a8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_21c2972a3b85cf507cf65c0f23e45a8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:47</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2084237915</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>9ad173e23b89cf507cf65c0f23e45ad4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ac6120000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7dc2d72a8285cf5005e151c02535cc17</update_guid>
+<update_guid_history>7dc2d72a8285cf5005e151c02535cc17:2084237915</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_52c2d72a3b85cf507cf65c0f23e45a13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:50</sys_created_on><sys_id>52c2d72a3b85cf507cf65c0f23e45a13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_52c2d72a3b85cf507cf65c0f23e45a13</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:50</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-2042086199</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>9ed173e23b89cf507cf65c0f23e45ad5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ad1d30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2ec2d72a8985cf509c0697346ff441b8</update_guid>
+<update_guid_history>2ec2d72a8985cf509c0697346ff441b8:-2042086199</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_f4bd43ae3b45cf507cf65c0f23e45a71</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Default user role</description><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_884051_acl_sec_0.user</name><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:38:37</sys_created_on><sys_id>f4bd43ae3b45cf507cf65c0f23e45a71</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_user_role_f4bd43ae3b45cf507cf65c0f23e45a71</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:38:37</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>-1286172381</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:34</sys_created_on>
+<sys_id>a2d173e23b89cf507cf65c0f23e45adc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a167b410000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:34</sys_updated_on>
+<table/>
+<target_name>x_884051_acl_sec_0.user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>9dbd43ae0145cf500de0bb946a30189c</update_guid>
+<update_guid_history>9dbd43ae0145cf500de0bb946a30189c:-1286172381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_abb2572a3b85cf507cf65c0f23e45a8e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:38</sys_created_on><sys_id>abb2572a3b85cf507cf65c0f23e45a8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">6ab2172a3b85cf507cf65c0f23e45af8</sys_security_acl><sys_update_name>sys_security_acl_role_abb2572a3b85cf507cf65c0f23e45a8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:38</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.admin" name="x_884051_acl_sec_0.admin">10bd03ae3b45cf507cf65c0f23e45af6</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1130565208</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>aad173e23b89cf507cf65c0f23e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2aa9a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>88c2572ae585cf506d9e4cf5732000e1</update_guid>
+<update_guid_history>88c2572ae585cf506d9e4cf5732000e1:-1130565208</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_f2c2d72a3b85cf507cf65c0f23e45abd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:52</sys_created_on><sys_id>f2c2d72a3b85cf507cf65c0f23e45abd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">52c2d72a3b85cf507cf65c0f23e45a13</sys_security_acl><sys_update_name>sys_security_acl_role_f2c2d72a3b85cf507cf65c0f23e45abd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:52</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.user" name="x_884051_acl_sec_0.user">f4bd43ae3b45cf507cf65c0f23e45a71</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>2137304743</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>aed173e23b89cf507cf65c0f23e45ada</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2ad8130000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>8bc2d72a7385cf504b757bd42d365bf6</update_guid>
+<update_guid_history>8bc2d72a7385cf504b757bd42d365bf6:2137304743</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_693aeb263b49cf507cf65c0f23e45a0e</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Set Owners Default &lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    if (!current.u_owner)
+        current.u_owner = gs.getUserID();
+    if (!current.u_requested_for)
+        current.u_requested_for = gs.getUserID();
+
+    if (!current.u_status)
+        current.u_status = 'New';
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-27 17:48:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;693aeb263b49cf507cf65c0f23e45a0e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Owners Default &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0"&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACL Security Lite "&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_693aeb263b49cf507cf65c0f23e45a0e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-27 17:48:12&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=693aeb263b49cf507cf65c0f23e45a0e"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-163760736</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>cad173e23b89cf507cf65c0f23e45ad3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a8d22330000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>Set Owners Default </target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>6f5b6fa6fe49cf506818cbdfa0c7c38e</update_guid>
+<update_guid_history>6f5b6fa6fe49cf506818cbdfa0c7c38e:-163760736</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_66f4ab6a3b09cf507cf65c0f23e45a78</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Existing</local_or_existing><name>x_884051_acl_sec_0_u_sensitive_request</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 17:22:45</sys_created_on><sys_id>66f4ab6a3b09cf507cf65c0f23e45a78</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_security_acl_66f4ab6a3b09cf507cf65c0f23e45a78</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 17:22:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2095259627</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>d2d173e23b89cf507cf65c0f23e45ad6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a75d0640000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2a856fea2709cf50b9ed1bdc2c2fa14f</update_guid>
+<update_guid_history>2a856fea2709cf50b9ed1bdc2c2fa14f:2095259627</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a35957663bc5cf507cf65c0f23e45ad9</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow read for records in x_884051_acl_sec_0_u_sensitive_request, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	if(gs.hasRole('x_884051_acl_sec_0.admin')|| gs.hasRole('x_884051_acl_sec_0.Agent'))
+	return true;
+
+	var me = gs.getUserID();
+	return(current.u_owner == me || current.u_request_for == me);
+
+})();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-27 16:34:08&lt;/sys_created_on&gt;&lt;sys_id&gt;a35957663bc5cf507cf65c0f23e45ad9&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0"&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACL Security Lite "&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_a35957663bc5cf507cf65c0f23e45ad9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-27 17:17:10&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-957321409</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>d6d173e23b89cf507cf65c0f23e45ad7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a70b5b10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7444232e26c5cf508f6d0ee328466fe3</update_guid>
+<update_guid_history>7444232e26c5cf508f6d0ee328466fe3:-957321409,6a6a97e6d8c5cf50bcf3848a0a884a63:-1003974049</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9c7527aa3b09cf507cf65c0f23e45a3f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 17:22:44</sys_created_on><sys_id>9c7527aa3b09cf507cf65c0f23e45a3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="">66f4ab6a3b09cf507cf65c0f23e45a78</sys_security_acl><sys_update_name>sys_security_acl_role_9c7527aa3b09cf507cf65c0f23e45a3f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 17:22:44</sys_updated_on><sys_user_role display_value="user" name="user">b05926fa0a0a0aa7000130023e0bde98</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1350274634</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>dad173e23b89cf507cf65c0f23e45ad8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a75cceb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>66f4ab6a3b09cf507cf65c0f23e45a78</table>
+<target_name>.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>56856feaf109cf507fec1060bdd69149</update_guid>
+<update_guid_history>56856feaf109cf507fec1060bdd69149:1350274634</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_3208a3223b49cf507cf65c0f23e45a74</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition table="x_884051_acl_sec_0_u_sensitive_request"&gt;u_ssn_last4ISNOTEMPTY^EQ&lt;item endquery="false" field="u_ssn_last4" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description&gt;Allow read for records in x_884051_acl_sec_0_u_sensitive_request, if the ACL script returns true, and if the ACL condition (u_ssn_last4ISNOTEMPTY^EQ) evaluates to true.&lt;/description&gt;&lt;local_or_existing&gt;Existing&lt;/local_or_existing&gt;&lt;name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function(){
+	return gs.hasRole('x_884051_acl_sec_0.admin');
+});]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-05-27 17:38:28&lt;/sys_created_on&gt;&lt;sys_id&gt;3208a3223b49cf507cf65c0f23e45a74&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_884051_acl_sec_0_u_sensitive_request&lt;/sys_name&gt;&lt;sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0"&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ACL Security Lite "&gt;c7ad03ae3b45cf507cf65c0f23e45a4e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_3208a3223b49cf507cf65c0f23e45a74&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-05-27 17:39:29&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-987577061</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:32</sys_created_on>
+<sys_id>ded173e23b89cf507cf65c0f23e45ad4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a8525d50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:32</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>7759a3e22349cf501d01f2ae712f7f47</update_guid>
+<update_guid_history>7759a3e22349cf501d01f2ae712f7f47:-987577061,78296ba27d49cf501bb3b38a4892acb2:148777177</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_ce92132a3b85cf507cf65c0f23e45a6f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="ce92132a3b85cf507cf65c0f23e45a6f" sys_domain="global" table="x_884051_acl_sec_0_u_sensitive_request" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_884051_acl_sec_0_u_sensitive_request</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 15:59:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ce92132a3b85cf507cf65c0f23e45a6f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request</sys_name><sys_overrides/><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_ui_section_ce92132a3b85cf507cf65c0f23e45a6f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 15:59:59</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>2000275286</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>e2d173e23b89cf507cf65c0f23e45adb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2a12c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>u_sensitive_request</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>2e92132a7f85cf5060e8ab2c1bfc5f77</update_guid>
+<update_guid_history>2e92132a7f85cf5060e8ab2c1bfc5f77:2000275286,ea92132a6a85cf508cac444bd1a8f575:2000275286</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_ws_definition_5d2e232e3b49cf507cf65c0f23e45a62</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_884051_acl_sec_0/hr_confidential_request_api</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cef569a4c77210105b31824d5ec260fb</enforce_acl><is_versioned>false</is_versioned><name>HR Confidential Request API</name><namespace>x_884051_acl_sec_0</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>hr_confidential_request_api</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 18:01:24</sys_created_on><sys_id>5d2e232e3b49cf507cf65c0f23e45a62</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Confidential Request API</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_update_name>sys_ws_definition_5d2e232e3b49cf507cf65c0f23e45a62</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 18:01:24</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+<payload_hash>-481742960</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:34</sys_created_on>
+<sys_id>e6d173e23b89cf507cf65c0f23e45adc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a9933860000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:34</sys_updated_on>
+<table/>
+<target_name>HR Confidential Request API</target_name>
+<type>Scripted REST API</type>
+<update_domain>global</update_domain>
+<update_guid>f86ee72ef349cf50e3961748a6ea0494</update_guid>
+<update_guid_history>f86ee72ef349cf50e3961748a6ea0494:-481742960</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_e3b2572a3b85cf507cf65c0f23e45a49</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-05-27 16:00:38</sys_created_on><sys_id>e3b2572a3b85cf507cf65c0f23e45a49</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</sys_name><sys_package display_value="ACL Security Lite " source="x_884051_acl_sec_0">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_package><sys_policy/><sys_scope display_value="ACL Security Lite ">c7ad03ae3b45cf507cf65c0f23e45a4e</sys_scope><sys_security_acl display_value="x_884051_acl_sec_0_u_sensitive_request">76b2572a3b85cf507cf65c0f23e45a3f</sys_security_acl><sys_update_name>sys_security_acl_role_e3b2572a3b85cf507cf65c0f23e45a49</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-05-27 16:00:38</sys_updated_on><sys_user_role display_value="x_884051_acl_sec_0.user" name="x_884051_acl_sec_0.user">f4bd43ae3b45cf507cf65c0f23e45a71</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1250443236</payload_hash>
+<remote_update_set display_value="Default">42d17fee3b49cf507cf65c0f23e45a27</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-05-27 18:16:33</sys_created_on>
+<sys_id>eed173e23b89cf507cf65c0f23e45ad9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19e6a2aa4280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-05-27 18:16:33</sys_updated_on>
+<table>x_884051_acl_sec_0_u_sensitive_request</table>
+<target_name>x_884051_acl_sec_0_u_sensitive_request.x_884051_acl_sec_0.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>7bb2572a6385cf5069663c3366b8e5c1</update_guid>
+<update_guid_history>7bb2572a6385cf5069663c3366b8e5c1:1250443236</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
